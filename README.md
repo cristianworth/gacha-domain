@@ -19,12 +19,20 @@ O Resin Management é uma aplicação desenvolvida para ajudar jogadores de gach
 - **Registro de Tarefas Pendentes:** Mantenha um registro das tarefas que você pretende fazer em cada jogo.
 - **Calculadora de Tempo para Eventos:** Calcule o tempo restante para o término de eventos nos jogos.
 
-# To-do List
+## Dependencies
+```
+tsc --watch
+npm install dexie
+npm install --save-dev @types/dexie
+```
+
+## To-do List
 - [X] Order the games by the date where the stamina is closest to full
 - [X] Use IndexedDB instead of localStorage
 - [X] Create a function to show pending tasks to-do in the game
 - [ ] Add an option to mark/unmark gacha dailies as done
 
+## Typescript cmd
 ```
 npm install -g typescript // install it globally
 node -v // typescript runs under node
